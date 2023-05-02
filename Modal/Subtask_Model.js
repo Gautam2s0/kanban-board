@@ -6,7 +6,6 @@ const schema=mongoose.Schema({
     // task:mongoose.Types.ObjectId
 
 })
-
 const SubTaskModal=mongoose.model("Subtask",schema)
 
 module.exports={
